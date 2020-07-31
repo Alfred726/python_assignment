@@ -1,0 +1,55 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def calculate_date_time():\n",
+    "    now = datetime.datetime.now()\n",
+    "    date_time=now.strftime(\"Date:%Y-%m-%d  Start time:%H:%M\")\n",
+    "    global only_date\n",
+    "    global date\n",
+    "    only_date=now.strftime(\"%H:%M\")\n",
+    "    lb4.configure (text=date_time)\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def money_made():\n",
+    "    #getting time for stop work\n",
+    "    now2 = datetime.datetime.now()\n",
+    "    date_time2=now2.strftime(\"%H:%M\")\n",
+    "    \n",
+    "   "
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
